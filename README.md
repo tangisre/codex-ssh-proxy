@@ -1,5 +1,6 @@
 # Codex SSH Proxy
 主要实现远程Linux服务器,通过走Windows的HTTP代理而非服务器原有网络,去访问OPENAI相关模型服务等,服务器上其他网络请求仍走正常网络.
+
 在 Windows 上启动 SSH 反向转发，让远端 Linux 的 Codex CLI 和 `app-server` 使用 Windows 已有的 HTTP 代理。代码也支持 Windows Codex 桌面端的 Remote SSH。项目文件、命令和普通 shell 流量都留在 Linux 的正常运行环境中。 [Codex Remote SSH](https://learn.chatgpt.com/docs/remote-connections#connect-to-an-ssh-host)
 
 ## 准备
